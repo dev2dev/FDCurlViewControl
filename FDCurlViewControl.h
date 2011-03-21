@@ -67,8 +67,8 @@
 
 @protocol FDCurlViewControlDelegate <NSObject>
 @optional
-- (void)curlViewControlWillCurlViewUp:(CurlViewControl *)control;
-- (void)curlViewControlDidCurlViewUp:(CurlViewControl *)control;
-- (void)curlViewControlWillCurlViewDown:(CurlViewControl *)control;
-- (void)curlViewControlDidCurlViewDown:(CurlViewControl *)control;
+- (void)curlViewControlWillCurlViewUp:(FDCurlViewControl *)control;
+- (void)curlViewControlDidCurlViewUp:(FDCurlViewControl *)control;
+- (void)curlViewControlWillCurlViewDown:(FDCurlViewControl *)control;
+- (void)curlViewControlDidCurlViewDown:(FDCurlViewControl *)control;
 @end

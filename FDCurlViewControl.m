@@ -28,7 +28,7 @@
 
 //	Inspirational source: http://developer.apple.com/library/ios/#qa/qa2009/qa1673.html
 
-#import "CurlViewControl.h"
+#import "FDCurlViewControl.h"
 #import <QuartzCore/QuartzCore.h>
 
 static NSString *const kCurlUpAndDownAnimationID = @"kCurlUpAndDownAnimationID";
